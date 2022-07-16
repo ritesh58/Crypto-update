@@ -11,7 +11,7 @@ resources:
 variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '78737e86-a820-4778-9596-983f44662828'
-  imageRepository: 'riteshwebsite'
+  imageRepository: 'CryptoUpdate'
   containerRegistry: 'containerregistryritesh.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
